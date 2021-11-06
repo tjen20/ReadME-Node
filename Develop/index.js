@@ -86,7 +86,7 @@ inquirer
 
     
     ## License
-    ###${data.license}
+    ###${data.license}(https://img.shields.io/badge/license-MIT-blue.svg)
     ---
     
     ## Badges
