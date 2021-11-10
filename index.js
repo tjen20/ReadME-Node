@@ -1,5 +1,8 @@
 // TODO: Include packages needed for this application
 
+const fs = require('fs');
+const inquirer = require('inquirer');
+
 // TODO: Create an array of questions for user input
 const questions = [];
 
@@ -11,10 +14,6 @@ function init() {}
 
 // Function call to initialize app
 init();
-
-
-const fs = require('fs');
-const inquirer = require('inquirer');
 
 // Prompt the user
 inquirer
@@ -56,47 +55,47 @@ inquirer
       choices: ['Apache License 2.0', 'MIT', 'ISC', 'GNU GPLv3', 'GNU GPLv2']
     },
    
-  ]) // Write the user response to a file by chaining the below callback method to the prompt above.
+  ]) 
+  
+  // Write the user response to a file by chaining the below callback method to the prompt above.
   .then(function(data) {
-    // Bonus: Generate the name of your user file from their input
+    
+ // Bonus: Generate the name of your user file from their input
+
     const filename = 'README.md';
     const body = `
-    
     # Your Project Title
-    ##${data.project}
+    ## ${data.project}
 
-    ## Description 
-    ###${data.description}
-
+    ![Badge for License](https://img.shields.io/badge/license-${data.license}-informational)
         
-    ## Table of Contents (Optional)
-        
+    ## Table of Contents
+    * [Project Description](#description)   
     * [Installation](#installation)
     * [Usage](#usage)
-    * [Credits](#credits)
     * [License](#license)
+    * [Contributing](#contribution)
+
+    ## Description 
+    ### ${data.description}
     
     ## Installation
-    ###${data.instal}
+    ### ${data.instal}
     
     ## Usage 
-    ###${data.usage}
-    
-    ![alt text](assets/images/screenshot.png)
+    ### ${data.usage}
 
-    
     ## License
-    ###${data.license}(https://img.shields.io/badge/license-MIT-blue.svg)
-    ---
-    
-    ## Badges
-    ###${data.license}
+    ### ${data.license}(https://img.shields.io/badge/license-MIT-blue.svg)
     
     ## Contributing
-    ###${data.contribution}
+    ### ${data.contribution}
 
     ## Tests
-    ###${data.test}
+    ### ${data.test}
+     
+    ## Badges
+    ### ${data.license}
 
     `
 
