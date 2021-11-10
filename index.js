@@ -99,9 +99,6 @@ inquirer
 
 ## Tests
 * ${data.test}
-     
-## Badges
-![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)
 
     `
 
