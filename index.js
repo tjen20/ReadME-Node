@@ -63,6 +63,11 @@ inquirer
       name: 'license',
       choices: ['Apache_2.0', 'MIT', 'ISC', 'GNU_GPLv3', 'GNU_GPLv2']
     },
+    {
+      type: 'input',
+      name: 'GitHub',
+      message: 'Enter your GitHub username.'
+  },
    
   ]) 
   
@@ -84,6 +89,7 @@ inquirer
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contribution)
+* [Questions](#questions)
 
 ## Description 
 * ${data.description}
@@ -99,6 +105,11 @@ inquirer
 
 ## Tests
 * ${data.test}
+
+## Questions
+Follow me on GitHub!: (https://github.com/${data.github})
+
+
 
     `
 
