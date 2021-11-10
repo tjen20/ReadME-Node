@@ -107,7 +107,7 @@ inquirer
 * ${data.test}
 
 ## Questions
-Follow me on GitHub!: (https://github.com/${data.github})
+Follow me on GitHub!: (https://github.com/${data.GitHub})
 
 
 
