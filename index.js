@@ -68,6 +68,11 @@ inquirer
       name: 'GitHub',
       message: 'Enter your GitHub username.'
   },
+  {
+    type: 'input',
+    name: 'email',
+    message: 'Enter your email.'
+},
    
   ]) 
   
@@ -107,8 +112,10 @@ inquirer
 * ${data.test}
 
 ## Questions
+
 Follow me on GitHub!: (https://github.com/${data.GitHub})
 
+Please feel free to contact me through email at ${data.email}
 
 
     `

@@ -1,9 +1,9 @@
 
 # Project Title
-## hella sl
+## asldj as
 
 ## License
-![GitHub license](https://img.shields.io/badge/license-Apache_2.0-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-GNU_GPLv3-blue.svg)
 
 ## Table of Contents
 * [Project Description](#description)   
@@ -22,14 +22,16 @@
 * 
     
 ## Contributing
-* g
+* a
 
 ## Tests
-* g
+* af
 
 ## Questions
+
 Follow me on GitHub!: (https://github.com/tjen20)
 
+Please feel free to contact me through email at teriannjensen@gmail.com
 
 
     
