@@ -73,38 +73,38 @@ inquirer
 
     let filename = `README.md`;
     const body = `
-    # Project Title
-    ## ${data.project}
+# Project Title
+## ${data.project}
 
-    ![Badge for License](https://img.shields.io/badge/license-${data.license}-informational)
+![Badge for License](https://img.shields.io/badge/license-${data.license}-informational)
 
-    ## Table of Contents
-    * [Project Description](#description)   
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license)
-    * [Contributing](#contribution)
+## Table of Contents
+* [Project Description](#description)   
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contribution)
 
-    ## Description 
-    * ${data.description}
+## Description 
+* ${data.description}
     
-    ## Installation
-    * ${data.instal}
+## Installation
+* ${data.instal}
     
-    ## Usage 
-    * ${data.usage}
+## Usage 
+* ${data.usage}
 
-    ## License
-    * ${data.license}(https://img.shields.io/badge/license-MIT-blue.svg)
+## License
+* ${data.license}(https://img.shields.io/badge/license-MIT-blue.svg)
     
-    ## Contributing
-    * ${data.contribution}
+## Contributing
+* ${data.contribution}
 
-    ## Tests
-    * ${data.test}
+## Tests
+* ${data.test}
      
-    ## Badges
-    * ${data.license}
+## Badges
+* ${data.license}
 
     `
 
