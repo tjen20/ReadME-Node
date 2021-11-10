@@ -71,7 +71,7 @@ inquirer
     
  // Bonus: Generate the name of your user file from their input
 
-    let filename = 'README.md';
+    let filename = `README.md`;
     const body = `
     # Project Title
     ## ${data.project}
