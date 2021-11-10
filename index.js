@@ -76,13 +76,13 @@ inquirer
 # Project Title
 ## ${data.project}
 
+## License
 ![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)
 
 ## Table of Contents
 * [Project Description](#description)   
 * [Installation](#installation)
 * [Usage](#usage)
-* [License](#license)
 * [Contributing](#contribution)
 
 ## Description 
@@ -93,9 +93,6 @@ inquirer
     
 ## Usage 
 * ${data.usage}
-
-## License
-* ${data.license}(https://img.shields.io/badge/license-MIT-blue.svg)
     
 ## Contributing
 * ${data.contribution}
@@ -104,7 +101,7 @@ inquirer
 * ${data.test}
      
 ## Badges
-* ${data.license}
+![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)
 
     `
 
