@@ -1,9 +1,9 @@
 
 # Project Title
-## asldj as
+## Covid-Tracker
 
 ## License
-![GitHub license](https://img.shields.io/badge/license-GNU_GPLv3-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-ISC-blue.svg)
 
 ## Table of Contents
 * [Project Description](#description)   
@@ -13,19 +13,19 @@
 * [Questions](#questions)
 
 ## Description 
-* a
+* Tracking covid in US and world wide
     
 ## Installation
-* a
+* just visit site
     
 ## Usage 
-* 
+* Fill out form
     
 ## Contributing
-* a
+* followed
 
 ## Tests
-* af
+* test
 
 ## Questions
 
