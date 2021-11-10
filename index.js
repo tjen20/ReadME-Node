@@ -7,7 +7,16 @@ const inquirer = require('inquirer');
 const questions = [];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+const writeFile = (fileName, data) => {
+
+  fs.writeFile(fileName, data, err => {
+      if (err) {
+          return console.log(err);
+      }
+      console.log('Your file has been created!');
+
+  });
+};
 
 // TODO: Create a function to initialize app
 function init() {}
@@ -62,13 +71,13 @@ inquirer
     
  // Bonus: Generate the name of your user file from their input
 
-    const filename = 'README.md';
+    let filename = 'README.md';
     const body = `
-    # Your Project Title
+    # Project Title
     ## ${data.project}
 
     ![Badge for License](https://img.shields.io/badge/license-${data.license}-informational)
-        
+
     ## Table of Contents
     * [Project Description](#description)   
     * [Installation](#installation)
@@ -77,25 +86,25 @@ inquirer
     * [Contributing](#contribution)
 
     ## Description 
-    ### ${data.description}
+    * ${data.description}
     
     ## Installation
-    ### ${data.instal}
+    * ${data.instal}
     
     ## Usage 
-    ### ${data.usage}
+    * ${data.usage}
 
     ## License
-    ### ${data.license}(https://img.shields.io/badge/license-MIT-blue.svg)
+    * ${data.license}(https://img.shields.io/badge/license-MIT-blue.svg)
     
     ## Contributing
-    ### ${data.contribution}
+    * ${data.contribution}
 
     ## Tests
-    ### ${data.test}
+    * ${data.test}
      
     ## Badges
-    ### ${data.license}
+    * ${data.license}
 
     `
 
