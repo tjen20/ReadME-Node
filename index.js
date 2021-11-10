@@ -76,7 +76,7 @@ inquirer
 # Project Title
 ## ${data.project}
 
-![Badge for License](https://img.shields.io/badge/license-${data.license}-informational)
+![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)
 
 ## Table of Contents
 * [Project Description](#description)   
