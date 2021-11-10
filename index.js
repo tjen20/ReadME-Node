@@ -61,7 +61,7 @@ inquirer
       type: 'list',
       message: 'Choose a license for your project',
       name: 'license',
-      choices: ['Apache License 2.0', 'MIT', 'ISC', 'GNU GPLv3', 'GNU GPLv2']
+      choices: ['Apache-2.0', 'MIT', 'ISC', 'GNU-GPLv3', 'GNU-GPLv2']
     },
    
   ]) 
