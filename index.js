@@ -117,6 +117,8 @@ Follow me on GitHub!: (https://github.com/${data.GitHub})
 
 Please feel free to contact me through email at ${data.email}
 
+Follow this video for more instruction:
+https://drive.google.com/file/d/1LpQddeAVcvp9_Sn_BwCDI_f_lDqav2Au/view
 
     `
 

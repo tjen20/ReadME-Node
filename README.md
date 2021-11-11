@@ -13,16 +13,16 @@
 * [Questions](#questions)
 
 ## Description 
-* Tracking covid in US and world wide
+* tracks covid 
     
 ## Installation
-* just visit site
+* tracks covid
     
 ## Usage 
-* Fill out form
+* usage
     
 ## Contributing
-* followed
+* contribution
 
 ## Tests
 * test
@@ -33,5 +33,7 @@ Follow me on GitHub!: (https://github.com/tjen20)
 
 Please feel free to contact me through email at teriannjensen@gmail.com
 
+Follow this video for more instruction:
+https://drive.google.com/file/d/1LpQddeAVcvp9_Sn_BwCDI_f_lDqav2Au/view
 
     
